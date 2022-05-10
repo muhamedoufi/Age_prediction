@@ -1,0 +1,5 @@
+# ignore dataset 
+20-50/
+
+# ignore notebook cache
+.ipynb_checkpoints

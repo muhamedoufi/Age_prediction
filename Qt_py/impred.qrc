@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="images">
+    <file>dataset-cover.png</file>
+  </qresource>
+</RCC>
