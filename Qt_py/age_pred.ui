@@ -63,8 +63,14 @@ font-weight:300;</string>
       <height>201</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background:none;</string>
+    </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>images/faceico (2).jpeg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -73,7 +79,7 @@ font-weight:300;</string>
    <widget class="QLabel" name="titre">
     <property name="geometry">
      <rect>
-      <x>0</x>
+      <x>-50</x>
       <y>0</y>
       <width>741</width>
       <height>111</height>
@@ -87,7 +93,7 @@ font-weight:300;</string>
 font-weight:600;background:none;</string>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt;&quot;&gt;Age Prediction&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:36pt;&quot;&gt;👨‍👨‍👦👨‍👧&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt;&quot;&gt;Age Prediction &lt;/span&gt;&lt;span style=&quot; font-size:36pt;&quot;&gt;👨‍👨‍👦👨‍👧&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QLabel" name="result">
@@ -118,6 +124,28 @@ border-radius:29px;</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>191</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:none</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>images/ai.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
   </widget>
